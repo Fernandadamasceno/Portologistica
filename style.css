@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: black;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+header h2 {
+  font-size: 1.5rem;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+header nav ul li a:hover {
+  color: blue;
+}
+
+.container_background_image {
+  height: 100vh;
+  background-color: aqua;
+  background-image: url("./imagens/6ba567ef9e94f172c378e6b2c5e3d205.jpg");
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: repeat repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  background-position: top;
+  background-position: bottom;
+  background-position: left;
+  background-position: right;
+  background-position: center;
+}
+
+.main {
+  padding: 2rem;
+}
+.main .sobre {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.main .sobre h3 {
+  font-size: 1, 2rem;
+  color: blue;
+}
+.main .sobre h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.main .sobre img {
+  max-width: 50%;
+  height: auto;
+  margin: 1rem 0;
+}
+.main .sobre img .container {
+  display: flex;
+  justify-content: space-between;
+}
+.main .sobre img .container img {
+  order: 3;
+  margin-left: 5rem;
+}
+.main .sobre img .container .text {
+  order: 4;
+}
+.main .sobre p {
+  margin: 1rem 0;
+}
+.main .sobre nav ul {
+  list-style: none;
+}
+.main .sobre nav ul li a {
+  display: inline-block;
+  background: blueviolet;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.main .sobre nav ul li a:hover {
+  background: blue;
+}
+.main .Galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.main .Galeria img {
+  max-width: 50vh;
+  height: auto;
+  border-radius: 6vh;
+}
+.main .Galeria .carousel-button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.main .Galeria .carousel-button:hover {
+  background: black;
+}
+
+.Monitoramento,
+.Navios,
+.Contrainers {
+  background-image: url(./imagens/8efda387c248d52d3618ad490e53d109.png);
+  margin: 2rem 0;
+  padding: 1rem;
+  background: white;
+  border-radius: 5vh;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.Monitoramento h5, .Monitoramento h6, .Monitoramento h7,
+.Navios h5,
+.Navios h6,
+.Navios h7,
+.Contrainers h5,
+.Contrainers h6,
+.Contrainers h7 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: blue;
+}
+.Monitoramento p,
+.Navios p,
+.Contrainers p {
+  font-size: 1rem;
+}
+
+.Fale.conosco {
+  max-width: 100vh;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.Fale.conosco label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.Fale.conosco input,
+.Fale.conosco textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3vh;
+}
+.Fale.conosco button {
+  display: inline-block;
+  background: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3vh;
+  cursor: pointer;
+}
+.Fale.conosco button:hover {
+  background: blue;
+}
+
+.footer {
+  text-align: center;
+  background: blue;
+  color: white;
+  padding: 1rem;
+}/*# sourceMappingURL=style.css.map */
